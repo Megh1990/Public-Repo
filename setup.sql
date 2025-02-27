@@ -1,6 +1,6 @@
-CREATE ROLE analyst;
+CREATE OR REPLACE ROLE analyst;
 
-CREATE USER gladys;
+CREATE OR REPLACE USER gladys;
 
 GRANT ROLE analyst TO USER gladys;
 
