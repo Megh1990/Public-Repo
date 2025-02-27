@@ -5,3 +5,5 @@ CREATE OR REPLACE USER gladys;
 GRANT ROLE analyst TO USER gladys;
 
 SHOW GRANTS TO USER gladys;
+
+--test
